@@ -1,1 +1,1 @@
-https://egnaldcela.github.io/calculus-tutoring/
+https://egnaldcela.github.io/calculus-tutoring
