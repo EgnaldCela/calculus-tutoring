@@ -61,7 +61,7 @@
     footer { max-width: 960px; min-height: 100px; margin: 0 auto; padding: 30px 24px; display: flex; justify-content: space-between; color: var(--muted); font-size: 12px; }
     @media (max-width: 720px) {
       .site-header { padding: 0 20px; }
-      nav { gap: 18px; }
+      nav { gap: 12px; }
       main { padding: 0 20px; }
       .intro { min-height: auto; padding: 70px 0 65px; display: block; }
       .sapienza-logo { display: none; }
@@ -75,7 +75,8 @@
       footer { flex-direction: column; gap: 8px; padding-inline: 20px; }
     }
     @media (max-width: 440px) {
-      .site-name { font-size: 14px; }
+      .site-name { font-size: 13px; }
+      nav { gap: 10px; font-size: 12px; }
       nav a:first-child { display: none; }
       h1 { font-size: 37px; }
     }
@@ -87,6 +88,7 @@
     <nav aria-label="Main navigation">
       <a href="#details">Details</a>
       <a href="#worksheets">Worksheets</a>
+      <a href="#animations">Animations</a>
     </nav>
   </header>
 
@@ -130,6 +132,14 @@
         <article class="worksheet"><span class="number">06</span><div><h3>Limits</h3><p>Indeterminate forms, changes of variable, squeeze theorem and special limits</p></div><a class="download" href="worksheets/Worksheet06.pdf" target="_blank" rel="noopener"> Open worksheet </a></article>
       </div>
       <p class="edit-note"></p>
+    </section>
+    <section class="section" id="animations">
+      <div class="section-title"><h2>Animations</h2><p>Explore calculus visually. Play an animation, adjust the controls and test your intuition.</p></div>
+      <div class="worksheet-list">
+        <article class="worksheet"><span class="number">01</span><div><h3>Derivatives</h3><p>From average slope to the tangent at a point</p></div><a class="download" href="animations/index.html#derivatives">Explore derivatives</a></article>
+        <article class="worksheet"><span class="number">02</span><div><h3>Taylor polynomials</h3><p>Local approximations, degree and approximation error</p></div><a class="download" href="animations/index.html#taylor">Explore Taylor polynomials</a></article>
+        <article class="worksheet"><span class="number">03</span><div><h3>Epsilon–delta limits</h3><p>Connect input distance with output tolerance</p></div><a class="download" href="animations/index.html#limits">Explore limits</a></article>
+      </div>
     </section>
   </main>
 
